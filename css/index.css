@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.center-content {
+  width: 100%;
+  max-width: 130em;
+  margin: 0 auto;
+  position: relative; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://i.imgur.com/f3h4zIZ.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  body .menu-area {
+    width: 100%;
+    height: 10em;
+    line-height: 5em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    font-family: FontAwesome;
+    display: block;
+    text-align: center; }
+    body .menu-area .button {
+      background: transparent;
+      border: dotted 3px #fff;
+      border-radius: 50%;
+      width: 10em;
+      height: 10em;
+      display: inline-block;
+      text-align: center;
+      margin: 1em 4em;
+      transition: transform 0.3s ease-in-out; }
+      body .menu-area .button:hover {
+        transform: rotate(360deg);
+        cursor: pointer; }
+      body .menu-area .button:focus {
+        outline: none !important; }
+      body .menu-area .button i {
+        font-family: FontAwesome;
+        font-style: normal;
+        color: white;
+        font-weight: 100; }
+      body .menu-area .button p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2em;
+        color: white; }
+  body .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0; }
+    body .overlay:target {
+      visibility: visible;
+      opacity: 1;
+      position: absolute; }
+    body .overlay .popup {
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.81);
+      border-radius: 5px;
+      width: 100%;
+      position: relative;
+      transition: all 0.1s ease-in-out;
+      height: 100%; }
+      body .overlay .popup h2 {
+        margin-top: 0;
+        color: rgba(0, 0, 0, 0.81);
+        font-family: Tahoma, Arial, sans-serif; }
+    body .overlay .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 5em;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff; }
+      body .overlay .close:hover {
+        color: #06D85F; }
+    body .overlay .content {
+      max-height: 100%;
+      overflow: auto;
+      width: 80%;
+      background-color: #fff;
+      color: #000;
+      margin: 5em auto 0;
+      text-align: center;
+      border-radius: 4px;
+      padding-bottom: 2em; }
+      body .overlay .content h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3em;
+        border-bottom: 2px dotted;
+        width: 100%;
+        color: #b75b6d; }
+      body .overlay .content p {
+        color: #c47886;
+        margin: 2em auto 0;
+        font-size: 1.3em;
+        font-family: "Indie Flower", cursive; }
+      body .overlay .content small {
+        font-size: 1em;
+        font-family: "Indie Flower", cursive;
+        color: #d49da7;
+        margin-bottom: 2em; }
+  @media only screen and (max-width: 1024px) {
+    body .menu-area {
+      height: auto; } }
