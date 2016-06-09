@@ -1,0 +1,82 @@
+<?php include("header.php"); ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Carrinho de Compras</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="script.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/utils.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+
+
+
+<section class="center-content">
+
+	<section class="u-container u-border">
+
+
+		      <section class="u-thumb">
+						<img src="http://www.grupopossi.com.br/resources/grupopossi/images/nao-disponivel.jpg" width="164px" height="164px" alt="" />
+					</section>
+
+
+					<section class="u-name"> Antonio Carlos Da silva</section>
+
+					<section class="u-table">
+						<table class="table-fill">
+						<thead>
+						<tr>
+						<th class="text-left">Dados do cliente</th>
+						<th class="text-left"></th>
+						</tr>
+						</thead>
+						<tbody class="table-hover">
+						<tr>
+						<td class="text-left">Nome</td>
+						<td class="text-left">Antonio Carlos da Silva</td>
+						</tr>
+						<tr>
+						<td class="text-left">Endereço</td>
+						<td class="text-left">rua centopeia - jd. nova luz</td>
+						</tr>
+						<td class="text-left">Número</td>
+						<td class="text-left">172</td>
+						</tr>
+						<tr>
+						<td class="text-left">Telefone</td>
+						<td class="text-left">(11) 3985-4321</td>
+						</tr>
+						<tr>
+						<td class="text-left">Cpf</td>
+						<td class="text-left">123.456.789-0</td>
+						</tr>
+						<tr>
+						<td class="text-left">RG</td>
+						<td class="text-left">23.123.123.4</td>
+						</tr>
+						</tbody>
+						</table>
+
+					</section>
+
+
+
+
+	<section class="center-1024">
+
+		<section class="sml-button">
+			<a href="del-page.php"><button>Voltar</button></a>
+			<a href="index.php"><button>Finalizar Compra</button></a>
+			<a href="index.php"><button>Cancelar</button></a>
+		</section>
+
+	</section>
+
+
+</section>
